@@ -5,5 +5,11 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [com.datomic/datomic-pro "0.9.5951"]
-                 [prismatic/schema "1.3.0"]]
+                 [prismatic/schema "1.3.0"]
+                 [io.pedestal/pedestal.service "0.5.7"]
+                 [io.pedestal/pedestal.route "0.5.7"]
+                 [io.pedestal/pedestal.jetty "0.5.7"]
+                 [org.clojure/data.json "0.2.6"]
+                 [ring/ring-json "0.5.1"]
+                 [org.slf4j/slf4j-simple "1.7.28"]]
   :repl-options {:init-ns song-api.core})
